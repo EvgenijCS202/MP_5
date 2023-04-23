@@ -1,0 +1,101 @@
+\hypertarget{class_factory}{}\doxysection{Класс Factory}
+\label{class_factory}\index{Factory@{Factory}}
+
+
+{\ttfamily \#include $<$Factory.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+virtual QMenu $\ast$ \mbox{\hyperlink{class_factory_ab67133d4afdec4db38c5474195f6c5a4}{create\+Lang\+Menu}} ()=0
+\item 
+virtual QMenu $\ast$ \mbox{\hyperlink{class_factory_a10d3c639c74a4fe3791ab1f4094e65a9}{create\+About\+Lang\+Menu}} ()=0
+\item 
+virtual QFont \mbox{\hyperlink{class_factory_a7ac1ec92a3c3ab0df94961a4d3efae02}{create\+Font}} ()=0
+\item 
+virtual QPalette \mbox{\hyperlink{class_factory_a1b2b21f488959850c6f07297894f5304}{create\+Palette}} ()=0
+\item 
+virtual QPalette \mbox{\hyperlink{class_factory_adf12bfe632c0dc33736ca5f77b2ce9e2}{create\+Label\+Palette}} ()=0
+\item 
+virtual QLabel $\ast$ \mbox{\hyperlink{class_factory_a2332332853e7be5956505644c76f243f}{create\+Label}} (QWidget $\ast$parent)=0
+\item 
+virtual QPush\+Button $\ast$ \mbox{\hyperlink{class_factory_aaf3f64e80181ad954f2776690922fc7b}{create\+Button}} (QWidget $\ast$parent)=0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_factory_a10d3c639c74a4fe3791ab1f4094e65a9}\label{class_factory_a10d3c639c74a4fe3791ab1f4094e65a9}} 
+\index{Factory@{Factory}!createAboutLangMenu@{createAboutLangMenu}}
+\index{createAboutLangMenu@{createAboutLangMenu}!Factory@{Factory}}
+\doxysubsubsection{\texorpdfstring{createAboutLangMenu()}{createAboutLangMenu()}}
+{\footnotesize\ttfamily virtual QMenu $\ast$ Factory\+::create\+About\+Lang\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \mbox{\hyperlink{class_en_factory_ade8597c700a50a9edb82f09a857567a4}{En\+Factory}} и \mbox{\hyperlink{class_ru_factory_a13daacfc852bd98b53993b3d4b44c750}{Ru\+Factory}}.
+
+\mbox{\Hypertarget{class_factory_aaf3f64e80181ad954f2776690922fc7b}\label{class_factory_aaf3f64e80181ad954f2776690922fc7b}} 
+\index{Factory@{Factory}!createButton@{createButton}}
+\index{createButton@{createButton}!Factory@{Factory}}
+\doxysubsubsection{\texorpdfstring{createButton()}{createButton()}}
+{\footnotesize\ttfamily virtual QPush\+Button $\ast$ Factory\+::create\+Button (\begin{DoxyParamCaption}\item[{QWidget $\ast$}]{parent }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \mbox{\hyperlink{class_en_factory_ac7aad23bd7fd492f5a2f1960be92ef46}{En\+Factory}} и \mbox{\hyperlink{class_ru_factory_ab8ca23ae7fbe604a2955f2e1f7f76a4b}{Ru\+Factory}}.
+
+\mbox{\Hypertarget{class_factory_a7ac1ec92a3c3ab0df94961a4d3efae02}\label{class_factory_a7ac1ec92a3c3ab0df94961a4d3efae02}} 
+\index{Factory@{Factory}!createFont@{createFont}}
+\index{createFont@{createFont}!Factory@{Factory}}
+\doxysubsubsection{\texorpdfstring{createFont()}{createFont()}}
+{\footnotesize\ttfamily virtual QFont Factory\+::create\+Font (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \mbox{\hyperlink{class_en_factory_a1064fd3aae2e3395ddc46453a8fb9cb3}{En\+Factory}} и \mbox{\hyperlink{class_ru_factory_acf55e6421a45edb360520574fab11874}{Ru\+Factory}}.
+
+\mbox{\Hypertarget{class_factory_a2332332853e7be5956505644c76f243f}\label{class_factory_a2332332853e7be5956505644c76f243f}} 
+\index{Factory@{Factory}!createLabel@{createLabel}}
+\index{createLabel@{createLabel}!Factory@{Factory}}
+\doxysubsubsection{\texorpdfstring{createLabel()}{createLabel()}}
+{\footnotesize\ttfamily virtual QLabel $\ast$ Factory\+::create\+Label (\begin{DoxyParamCaption}\item[{QWidget $\ast$}]{parent }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \mbox{\hyperlink{class_en_factory_a54c29c2c6b20863173532411f7c69a72}{En\+Factory}} и \mbox{\hyperlink{class_ru_factory_a37b60228423f6ce4885452df88d2c706}{Ru\+Factory}}.
+
+\mbox{\Hypertarget{class_factory_adf12bfe632c0dc33736ca5f77b2ce9e2}\label{class_factory_adf12bfe632c0dc33736ca5f77b2ce9e2}} 
+\index{Factory@{Factory}!createLabelPalette@{createLabelPalette}}
+\index{createLabelPalette@{createLabelPalette}!Factory@{Factory}}
+\doxysubsubsection{\texorpdfstring{createLabelPalette()}{createLabelPalette()}}
+{\footnotesize\ttfamily virtual QPalette Factory\+::create\+Label\+Palette (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \mbox{\hyperlink{class_en_factory_afff2b892c3a0d2da1b1b2b7e1b0cae96}{En\+Factory}} и \mbox{\hyperlink{class_ru_factory_a943b7a2affe54f7e9e5a19f901f4d721}{Ru\+Factory}}.
+
+\mbox{\Hypertarget{class_factory_ab67133d4afdec4db38c5474195f6c5a4}\label{class_factory_ab67133d4afdec4db38c5474195f6c5a4}} 
+\index{Factory@{Factory}!createLangMenu@{createLangMenu}}
+\index{createLangMenu@{createLangMenu}!Factory@{Factory}}
+\doxysubsubsection{\texorpdfstring{createLangMenu()}{createLangMenu()}}
+{\footnotesize\ttfamily virtual QMenu $\ast$ Factory\+::create\+Lang\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \mbox{\hyperlink{class_en_factory_adf45e6ddd9638a44c1ef8dd21ab39c0b}{En\+Factory}} и \mbox{\hyperlink{class_ru_factory_a111d65aac04ccf8084ed8d4222e75bd6}{Ru\+Factory}}.
+
+\mbox{\Hypertarget{class_factory_a1b2b21f488959850c6f07297894f5304}\label{class_factory_a1b2b21f488959850c6f07297894f5304}} 
+\index{Factory@{Factory}!createPalette@{createPalette}}
+\index{createPalette@{createPalette}!Factory@{Factory}}
+\doxysubsubsection{\texorpdfstring{createPalette()}{createPalette()}}
+{\footnotesize\ttfamily virtual QPalette Factory\+::create\+Palette (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \mbox{\hyperlink{class_en_factory_a0268838527fb16ebd63aa04cd18d8e43}{En\+Factory}} и \mbox{\hyperlink{class_ru_factory_a2ef3d21803ba5b401ad8120d5f7bfc7a}{Ru\+Factory}}.
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_factory_8h}{Factory.\+h}}\end{DoxyCompactItemize}

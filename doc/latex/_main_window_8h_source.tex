@@ -1,0 +1,31 @@
+\hypertarget{_main_window_8h_source}{}\doxysection{Main\+Window.\+h}
+\mbox{\hyperlink{_main_window_8h}{См. документацию.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ MAINWINDOW\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ MAINWINDOW\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QMainWindow>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_factory_8h}{Factory.h}}"{}}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_main_window}{MainWindow}}\ :\ \textcolor{keyword}{public}\ QMainWindow}
+\DoxyCodeLine{00008\ \{}
+\DoxyCodeLine{00009\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00010\ \ \ \ \ \mbox{\hyperlink{class_factory}{Factory}}*\ fact;}
+\DoxyCodeLine{00011\ \ \ \ \ QMenu*\ lang;}
+\DoxyCodeLine{00012\ \ \ \ \ QLabel*\ label;}
+\DoxyCodeLine{00013\ \ \ \ \ QPushButton*\ but;}
+\DoxyCodeLine{00014\ \ \ \ \ QLabel*\ counter;}
+\DoxyCodeLine{00015\ \ \ \ \ QAction*\ ruFact;}
+\DoxyCodeLine{00016\ \ \ \ \ QAction*\ enFact;}
+\DoxyCodeLine{00017\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00018\ \ \ \ \ \mbox{\hyperlink{class_main_window}{MainWindow}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00019\ \ \ \ \ \mbox{\hyperlink{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}{\string~MainWindow}}();}
+\DoxyCodeLine{00020\ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_main_window_a128f71880d4b9683149023fc46fcc9f8}{update}}();}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_main_window_ab561f747b8347c7f89af638bc9a8edcc}{increment}}();}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_main_window_aacc2c4a4f16a9015f77022e499d4448d}{changeEn}}();}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_main_window_aa4fb69f100b98cdb49d7255cd8b6542e}{changeRu}}();}
+\DoxyCodeLine{00025\ \};}
+\DoxyCodeLine{00026\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ MAINWINDOW\_H}}
+
+\end{DoxyCode}
